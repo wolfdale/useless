@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body{
+  text-align: center;
+  padding: 10% 50px;
+  background-color: #f5f2d0;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+
+
+.made-with-love{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  font-size: 10px;
+  z-index: 9999;
+  font-family: arial;
+  color: black;
+  i{
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
